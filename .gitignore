@@ -1,0 +1,51 @@
+# 🍕 Smart Pizza Platform - Git Ignore File
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# ===== IDEs =====
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ===== Testing =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Build =====
+build/
+dist/
+*.egg-info/
+
+# ===== Secrets (NEVER commit these!) =====
+*.pem
+*.key
+secrets.json
+config.local.py
+.env.local
+
+# ===== Data files (often too large for Git) =====
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+data/
+
+# ===== ML Models (often too large) =====
+*.pkl
+*.h5
+*.pt
+models/
