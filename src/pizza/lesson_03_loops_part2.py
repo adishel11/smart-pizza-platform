@@ -57,5 +57,3 @@ else:
     print("=" * 40)
     print()
     print(f"🍕 Thank you! {len(order)} pizza(s) coming up!")
-
-

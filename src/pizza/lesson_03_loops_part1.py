@@ -180,6 +180,3 @@ while True:
     order_count += 1
     print(f"✓ Added pizza #{choice}")
 print(f"Total pizzas ordered: {order_count}")
-
-
-
